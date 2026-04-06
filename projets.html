@@ -13,30 +13,123 @@
 </head>
 
 <body>
-    <header>
-        <div><a href="Mon Portfolio">Mon Portfolio</a></div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="projets.html" class="active">Projets</a></li>
-                        <li><a href="passions.html">Passion</a></li>
-                        <li><a href="divertissement.html">Divertissement</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+    <header><a class="logo" href="logo">Mon Portfolio</a>
+        <ul class="list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projets.html" class="active">Projets</a></li>
+          <li><a href="passions.html">Passion</a></li>
+          <li><a href="divertissement.html">Divertissement</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         </ul>
     </header>
     <main>
-        <h1>Voici mes projets</h1>
+        <section class="projets">
+            <h1>Mes réalisations</h1>
+            <div>
+                <article class="partie">
+                    <img src="Image/e-commerce.jpg" alt="" width="250">
+                    <div class="texte-liens">
+                        <h3>Site E-commerce</h3>
+                        <p>Une boutique en ligne complète développée <br> avec HTML, CSS, et JavaScript pur.</p>
+                    </div>
+                    <div class="langages">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div><hr>
+                    <div class="liens">
+                        <a href=""><ion-icon name="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="open-ouline"></ion-icon>Démo</a>
+                    </div>
+                </article>
+
+                <article class="partie">
+                    <img src="Image/gestion-taches.jpg" alt="" width="250">
+                    <div class="texte-liens">
+                        <h3>Gestionnaire de Taches</h3>
+                        <p>Applications web pour organiser les projets <br> quotidiens avec stokage local.</p>
+                    </div>
+                    <div class="languages">
+                        <span>Python</span>
+                        <span>Flask</span>
+                    </div><hr>
+                    <div class="liens">
+                        <a href=""><ion-icon names="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="open-outline"></ion-icon>Démo</a>
+                    </div>
+                </article>
+
+                <article class="partie">
+                    <img src="Image/blog.jpg" alt="" width="250">
+                    <div class="texte-liens">
+                        <h3>Blog personnel</h3>
+                        <p>projet en cours de migration vers Laravel <br> pour apprendre le backend.</p>
+                    </div>
+                    <div class="languages">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                    </div><hr>
+                    <div class="liens">
+                        <a href=""><ion-icon name="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="time"></ion-icon>Démo</a>
+                    </div>
+                </article>
+
+                <article class="partie">
+                    <img src="Image/analyse.jpg" alt="" width="250">
+                    <div class="texte-liens">
+                        <h3>Dashedboard d'analyse</h3>
+                        <p>Visualisation de données dynamiques avec <br> python et la bibliothèque Matplotlib.</p>
+                    </div>
+                    <div class="languages">
+                        <span>Python</span>
+                        <span>Data</span>
+                    </div><hr>
+                    <div class="liens">
+                        <a href=""><ion-icon name="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="open-outline"></ion-icon>Démo</a>
+                    </div>
+                </article>
+
+                <article class="partie">
+                    <img src="Image/meteo.jpg" alt="" width="250">
+                    <div class="texte-liens">
+                        <h3>Applications Météo</h3>
+                        <p>Une application utilisant une API en temps <br> réel pour afficher la météo mondiale.</p>
+                    </div>
+                    <div class="langages">
+                        <span>JavaScript</span>
+                        <span>API</span>
+                    </div><hr>
+                    <div class="liens">
+                        <a href=""><ion-icon name="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="open-outline"></ion-icon>Démo</a>
+                    </div>
+                </article>
+
+                <article class="partie">
+                    <img src="Image/maquette.jpg" alt="">
+                    <div class="texte-liens">
+                        <h3>Maquette Mobile UI</h3>
+                        <p>Conception d'une interface utilisateur <br> moderne pour une application de Fitness.</p>
+                    </div>
+                    <div class="liens">
+                        <a href=""><ion-icon name="logo-github"></ion-icon>code</a>
+                        <a href=""><ion-icon name="eye"></ion-icon>Appercu</a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
     </main>
-   
-    </section>
-    </div>
-    <footer>
+<footer>
         <p>&copy; 2026 Lydie Kutayika.Tous droit réserver.</p>
         <div>
-                                        <a href=""><i class="fa-brands fa-github"></i></a>
-                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-                                    </div>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
 </body>
 </html>
